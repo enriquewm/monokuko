@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head lang="es">
+    <meta charset="UTF-8">
+    <title>elpoderdecompartir.com</title>
+</head>
+<body>
+
+<script type="text/javascript">
+    contador_regresivo(0, 0, 1, 20) // 0 Dias 0 Horas 1 Minuto 20 Segundos
+    function contador_regresivo(d, h, m, s)
+    {
+        var interval = setInterval(function(){
+            if(s > 0) { s--; }
+            else
+            {
+                if (m > 0)
+                {
+                    m--;
+                    s = 59;
+                }
+                else
+                {
+                    if (h > 0)
+                    {
+                        h--;
+                        m = 59;
+                        s = 59;
+                    }
+                    else
+                    {
+                        if (d > 0)
+                        {
+                            d--;
+                            h = 24;
+                            m = 59;
+                            s = 59;
+                        }
+                        else
+                        {
+                            clearInterval(interval);
+                        }
+                    }
+                }
+            }
+            document.body.innerHTML = d+" d "+h+" h "+m+" m "+s+" s"
+        },1000);
+    }
+</script>
+</body>
+</html>

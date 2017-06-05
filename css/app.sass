@@ -1,0 +1,590 @@
+//colors
+$color_gamboge_approx: #e99706
+$color_buttered_rum_approx: #9e6602
+$white: #fff
+$color_purple_heart_approx: #6f14b7
+$color_meteor_approx: #c87610
+$color_tuscany_approx: #b7642f
+$color_purple_heart_50_approx: rgba(111, 20, 183, 0.5)
+$color_alto_approx: #dcdcdc
+$color_emperor_approx: #4d4d4d
+$color_contessa_20_approx: rgba(203, 120, 105, 0.2)
+$color_purple_heart_80_approx: rgba(111, 20, 183, 0.8)
+$color_royal_purple_approx: rebeccapurple
+$color_violet_approx: #260146
+$color_vulcan_approx: rgba(26,15,26,1)
+$red: red
+$alto: #dbdbdb
+$color_mai_tai_approx: #b26104
+$color_daisy_bush_approx: #582286
+$color_purple_heart_30_approx: rgba(111, 20, 183, 0.3)
+$black_52: rgba(0,0,0,0.52)
+$color_aquamarine_50_approx: rgba(123,345,234, .5)
+$color_star_dust_approx: #9d9d9d
+$web_orange:  orange
+
+//fonts
+$font_0: Baloo
+$font_1: Raleway
+$font_2: baloo
+$font_3: 1.2em
+$font_4: FontAwesome
+$font_5: raleway
+
+//urls
+$url_0: url(../img/fondo-banner-p.jpg)
+$url_1: url(../img/event-banner.jpg)
+$url_2: url(../img/event-fondo.jpg)
+$url_3: url(../img/sponsor/fondo2.jpg)
+$url_4: url(../img/sponsor/1d.png)
+$url_5: url(../img/sponsor/2c.png)
+$url_6: url(../img/sponsor/3r.png)
+$url_7: url(../img/footer-banner.jpg)
+
+
+* 
+	padding: 0
+	margin: 0
+
+h1,
+h2,
+h3,
+h4,
+h4,
+h6
+	font-family: $font_0
+	font-size: 3em
+
+
+
+.particulas 
+	overflow: hidden
+	margin-top: 0
+	background-image: $url_0
+	background-attachment: fixed
+	background-size: 100%
+	background-repeat: no-repeat
+	height: 760px
+	position: relative
+
+.logo 
+	position: absolute
+	left: 550px
+	top: 200px
+	img 
+		width: 320px
+		height: 140px
+		padding-left: 15px
+	
+	h1 
+		color: $color_gamboge_approx
+		font-family: $font_0
+		text-align: center
+	
+	p 
+		color: $color_buttered_rum_approx
+		text-align: center
+		font-family: $font_1
+	
+	.suscribete 
+		display: block
+		text-align: center
+	
+	.btn-mono-kup 
+		padding: 10px
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 5px
+		color: $white
+		background: linear-gradient(to left, $color_purple_heart_approx, $color_meteor_approx)
+		text-align: center
+		font-family: $font_1
+		&:hover 
+			background: $color_purple_heart_50_approx
+			text-decoration: none
+		
+	
+
+.btn-primary 
+	background: $color_meteor_approx
+	border: none
+	background: $web_orange
+	&:hover 
+		background: $color_tuscany_approx
+	
+
+.menu 
+	width: 100%
+	//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+	transition: all 2s
+	position: fixed
+	padding-bottom: 15px
+	z-index: 10
+.logotipo
+	float: left
+	width: 300px
+	margin: 0
+	padding-left: 25px
+ul 
+	list-style: none
+	//padding-left: 28.5%
+	padding-top: 25px
+	margin-bottom: 0
+	float: left
+	li 
+		float: left
+		
+		margin: 0 20px
+	
+	a 
+		color: $color_alto_approx
+		text-align: center
+		font-size: 1.2em
+		font-family: $font_1
+		&:hover 
+			text-decoration: none
+			//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+			transition: color 1s
+			color: $color_emperor_approx
+		
+	
+
+nav 
+	width: 80%
+	margin: auto
+
+
+.modal 
+	background: $color_contessa_20_approx
+
+.modal-content 
+	margin-top: 150px
+	background: $color_purple_heart_80_approx
+	border: solid 5px transparent
+	border: 7px solid
+	//Instead of the line below you could use @include border-image($value)
+	border-image: linear-gradient(to bottombottom, $color_purple_heart_approx 0, $color_meteor_approx 100%)
+	border-image-slice: 1
+
+.text-uppercase 
+	color: $white
+
+.close 
+	color: $white
+	&:hover 
+		color: $color_purple_heart_approx
+	
+
+.event 
+	overflow: hidden
+	width: 100%
+	background: $color_royal_purple_approx
+	background-size: 100%
+	background-attachment: fixed
+	height: 700px
+
+.titulo 
+	color: $white
+	font-family: $font_0
+	h4 
+		font-size: 39px
+	
+
+.mono-fo 
+	margin-top: 80px
+	width: 100%
+	background-image: $url_1
+	background-size: 80%
+	background-repeat: no-repeat
+	background-position: right
+
+.mono-pa 
+	background: linear-gradient(100deg, $color_violet_approx 90%, transparent 10%)
+	//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+	box-shadow: -14px -11px 29px -17px $color_vulcan_approx
+	width: 60%
+	padding: 10px
+
+
+.fondom 
+	color: $white !important
+	font-size: 4em !important
+	//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+	transition: all 20s
+
+.p-l 
+	font-size: 2em
+	color: $color_gamboge_approx
+	font-family: $font_2
+
+.redes 
+	padding-left: 150px
+	ul 
+		list-style: none
+		li 
+			display: inline
+			margin-left: 10px
+			a 
+				color: $white
+				padding: 7px 10px
+				border: 1px solid $white
+				//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+				border-radius: 6px
+				//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+				transition: all 1s
+				&:hover 
+					background: $white
+					color: $color_violet_approx
+					//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+					border-radius: 10px
+					text-decoration: none
+				
+			
+		
+	
+
+.next-event-kup 
+	background: $url_2
+	background-attachment: fixed
+
+.mono-p 
+	text-align: center
+	padding: 50px 0
+	h2 
+		color: $white
+		font-size: 3em
+		font-family: $font_2
+	select
+		color: $color_daisy_bush_approx
+		width: 230px
+		height: 40px
+		border-radius: 5px
+		font-size: 1.2em
+			
+	p 
+		color: $color_daisy_bush_approx
+		font-size: 1.2em
+		margin-bottom: 50px
+	
+	h3 
+		color: $color_daisy_bush_approx
+		font-family: $font_1
+		padding-top: 20px
+		font-family: $font_3
+		
+
+.mono-cro 
+	width: 40%
+	margin: auto
+	.info 
+		color: $white
+		font-size: 2.5em
+		font-family: $font_2
+	
+	.info-des td 
+		color: $color_daisy_bush_approx
+	
+
+.list-event 
+	h2 
+		text-align: center
+		color: $white
+		padding: 30px
+	
+	.tabla 
+		width: 80%
+		height: 250px
+		margin: auto
+		text-align: center
+		tr 
+			font-size: 1.1em
+			color: $white
+			font-family: $font_1
+			border-bottom: 1px solid $color_purple_heart_30_approx
+			strong 
+				color: $color_daisy_bush_approx
+			
+			.bit-rsvp 
+				background: linear-gradient(to left, $color_purple_heart_approx, $color_meteor_approx)
+				padding: 3px 6px
+				color: $white
+				font-family: $font_1
+				font-size: 1em
+				//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+				border-radius: 6px
+				//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+				transition: all 1s
+				&:hover 
+					text-decoration: none
+					background: linear-gradient(to left, $color_meteor_approx, $color_purple_heart_approx)
+				
+			
+		
+	
+
+.p4 
+	background: $color_violet_approx
+	height: 700px
+
+.mono-title 
+	h2 
+		padding-top: 40px
+		font-size: 3em
+		font-family: $font_2
+		color: $white
+		text-align: center
+	
+	p 
+		font-family: $font_1
+		font-size: 1.05em
+		color: $color_meteor_approx
+		text-align: center
+		padding-bottom: 5px
+	
+
+.mono-fil 
+	width: 90%
+	display: flex
+	margin: auto
+	//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+	box-shadow: -12px -10px 28px -6px $black_52
+	.normal 
+		position: relative
+		.ver 
+			background-color: $color_aquamarine_50_approx
+			width: 100%
+			height: 100%
+			text-align: center
+			padding-top: 220px
+			position: absolute
+			left: 0
+			top: 0
+			overflow: hidden
+			a 
+				font-size: 3em
+				font-family: $font_2
+				display: block
+				//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+				transition: opacity .35s, transform .45s
+				//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+				transform: translate3d(-40px, 0, 0)
+			
+		
+	
+
+.mono-spon 
+	background-image: $url_3
+	background-size: 100%
+	background-repeat: no-repeat
+	height: 400px
+	h2 
+		color: $white
+		text-align: center
+		padding-top: 50px
+		font-family: $font_2
+		font-size: 3em
+	
+	p 
+		color: $color_star_dust_approx
+		text-align: center
+		padding-top: 35px
+	
+	.mono-lo 
+		padding: 0 30px
+		margin: auto
+		width: 300px
+		height: 180px
+		display: inline-block
+	
+	.dorito 
+		background-image: $url_4
+		background-repeat: no-repeat
+		trasition: background 2s
+	
+	.red 
+		background-image: $url_5
+		background-repeat: no-repeat
+		trasition: background 2s
+	
+	.coca 
+		background-image: $url_6
+		background-repeat: no-repeat
+		trasition: background 2s
+	
+
+.sponsor 
+	margin: 0 10px
+	width: 90%
+	margin: auto
+	padding: 0 45px
+	padding-top: 30px
+
+.btntoTop 
+	width: 50px
+	height: 50px
+	position: fixed
+	bottom: 70px
+	right: 70px
+	background-color: $white
+	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+	border-radius: 50%
+	text-align: center
+	line-height: 40px
+	cursor: pointer
+	opacity: 0
+	//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+	transition: opacity 0.2s ease
+	&:before 
+		padding-top: 0
+		content: "\f106"
+		display: inline-block
+		vertical-align: middle
+		font: 40px $font_4
+		color: $color_purple_heart_approx
+	
+	&.active 
+		opacity: 1
+		&:hover 
+			opacity: 0.8
+		
+	
+
+.mono-for 
+	height: 776px
+	background-image: $url_7
+	background-size: 100%
+	background-attachment: fixed
+	background-repeat: no-repeat
+	position: relative
+	.mono-mp 
+		width: 42%
+		height: 600px
+		width: 40%
+		height: 775px
+		position: absolute
+		left: 659px
+
+	
+	
+	
+
+.separar 
+	margin: 20px 0
+
+.formulario 
+	width: 500px
+	border-right: 3px solid $web_orange
+	height: 776px
+	padding: 10px
+	left: 160px
+	position: absolute
+	top: 0
+	h2 
+		color: $web_orange
+		font-size: 3em
+		font-family: $font_2
+		text-align: center
+		padding-top: 20px
+	
+	p 
+		font-size: 1.1em
+		color: $color_star_dust_approx
+		font-family: $font_5
+		text-align: center
+	
+	label 
+		color: $white
+		font-family: $font_5
+		padding: 3px 0
+	
+	.btn-platzi 
+		background: $web_orange
+	
+	.form-control:focus 
+		border-color: $web_orange
+	
+	span i 
+		color: $white
+	
+
+.btns 
+	margin-top: 20px
+	margin-left: 320px
+
+.contact 
+	width: 80%
+	margin: auto
+	margin-top: 10px
+	ul 
+		list-style: none
+		li 
+			margin: 10px 0
+			i 
+				color: $web_orange
+				font-size: 1.2em
+			
+			a 
+				color: $white
+				font-size: 1em
+				font-family: $font_5
+				text-decoration: none
+				&:hover 
+					color: $web_orange
+				
+			
+		
+	
+
+.footer 
+	background: $web_orange
+	height: 80px
+	.mono-foo 
+		
+		h4 
+			font-size: 1.1em
+			font-family: $font_5
+			color: $color_violet_approx
+		
+		li
+			padding-right: 3px
+			a 
+				color: $color_violet_approx
+				//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+				transition: all 1s
+				padding-right: 3px
+				&:hover 
+					color: $white
+					text-decoration: none
+			
+		
+	
+
+.carousel 
+	width: 100%
+
+section.aboutt 
+	background: #260146
+	height: 620px
+
+.aboutt .mono-pa 
+	height: 450px
+	h3 
+		font-family: $font_2
+		color: red
+		font-size: 3em
+		padding-bottom: 10px
+	
+	p 
+		width: 90%
+		font-family: $font_1
+		color: $alto
+		font-size: 1em
+		padding-bottom: 5px
+	
+	span .especial 
+		color: $color_gamboge_approx
+		font-family: $font_2
+		&:hover 
+			text-decoration: none
+			color: $color_mai_tai_approx
+		
+	

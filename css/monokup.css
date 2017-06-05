@@ -1,0 +1,649 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.particulas{
+    overflow: hidden;
+    margin-top: 0;
+	background-image:url(../img/fondo-banner-p.jpg);
+    background-attachment: fixed;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 760px;
+	position: relative;
+}
+
+.logo{
+    position: absolute;
+    left: 550px;
+    top: 200px;
+}
+
+.logo img{
+    width: 320px;
+    height: 140px;
+    padding-left: 15px;
+}
+
+.logo h1{
+    color: #E99706;
+    font-family: Baloo;
+    text-align: center;
+}
+
+.logo p{
+    color: #9E6602;
+    text-align: center;
+    font-family: Raleway;
+}
+
+.logo .suscribete{
+    display: block;
+    text-align: center;
+
+}
+.logo .btn-mono-kup{
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+    background:linear-gradient(to left, #6f14b7, #c87610);
+    text-align: center;
+    font-family: Raleway;
+}
+
+.btn-primary{
+    background: #ca7810;
+    border: none;
+}
+
+.btn-primary:hover{
+    background: #b7642f;
+   
+}
+
+.logo .btn-mono-kup:hover{
+    
+    background:rgba(111, 20, 183, 0.5); 
+    text-decoration: none;
+}
+
+ .menu{
+    width: 100%;
+    transition:all 2s;
+    position: fixed;
+    padding-bottom: 15px;
+    z-index: 10;
+
+ }
+ nav{
+  
+   width: 80%;
+   margin: auto;
+
+ }
+.menu ul{
+    
+    list-style: none;
+    padding-left: 28.5%;
+    padding-top: 15px;
+    margin-bottom: 0;
+    text-align: center;
+
+}
+
+.menu li{
+    float: left;
+    text-align: center;
+    margin: 0 20px;
+
+} 
+
+.menu a {
+    color: #dcdcdc;
+    text-align: center;
+    font-size: 1.2em;
+    font-family: Raleway;
+}
+
+.menu a:hover{
+    text-decoration: none;
+    transition: color 1s;
+    color: #4d4d4d;
+}
+
+.modal{
+    background: rgba(203, 120, 105, 0.2);
+}
+
+.modal-content{
+    margin-top: 150px;
+    background: rgba(111, 20, 183, 0.8);
+    border: solid 5px  transparent;
+    border: 7px solid ;
+    -moz-border-image: -moz-linear-gradient(top, #751ab4 0%, #cb7910 100%); 
+    -webkit-border-image: -webkit-linear-gradient(top, #cb7910 0%, #751ab4 100%); 
+    border-image: linear-gradient(to bottombottom, #751ab4 0%, #cb7910 100%); 
+    border-image-slice: 1;
+} 
+
+.text-uppercase, .close{
+    color: #fff;
+}
+
+.close:hover{
+    color: #6f14b7;
+}
+
+
+.event{
+    overflow: hidden;
+    width: 100%;
+    background: rebeccapurple;
+    /*background: url(../img/event-banner.jpg);*/
+    background-size: 100%;
+    background-attachment: fixed;
+    
+    height: 700px;
+
+}
+
+.titulo{
+    
+    color: #fff;
+    font-family: Baloo;
+    
+}
+
+.titulo h4{
+    font-size: 39px;
+}
+
+
+
+
+/*about us*/
+ 
+div.about{
+    height: 700px;
+    background-color:  #260146;
+
+}
+
+.mono-fo{
+    margin-top: 80px; 
+    width: 100%;
+    background-image: url(../img/event-banner.jpg);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.mono-pa{
+    
+    background: linear-gradient(100deg, #260146 90%, transparent 10%);
+    -webkit-box-shadow: -14px -11px 29px -17px rgba(26,15,26,1);
+    -moz-box-shadow: -14px -11px 29px -17px rgba(26,15,26,1);
+    box-shadow: -14px -11px 29px -17px rgba(26,15,26,1);
+    width: 60%;
+    padding: 10px;
+}
+
+.about .mono-pa h3{
+    font-family: baloo;
+    color: #E99706;
+    font-size: 3em;
+    padding-bottom: 10px;
+    
+}
+
+
+
+.pruev1{
+    color: red !important;
+    
+    
+}
+
+.fondom{
+    color: #fff !important;
+    font-size: 4em !important;
+    transition:all 20s;
+    
+}
+
+.about .mono-pa p{
+    width: 90%;
+    font-family:Raleway;
+    color: #dbdbdb;
+    font-size: 1em;
+    padding-bottom: 5px;
+}
+.p-l{
+    font-size: 2em;
+    color: #E99706;
+    font-family: baloo;
+}
+.about .mono-pa span .especial{
+    color:#E99706;
+    font-family: baloo;
+}
+
+.about .mono-pa span .especial:hover{
+    text-decoration: none;
+    color: #B26104;
+}
+.redes{
+    padding-left: 150px;
+}
+
+
+}
+.redes ul{
+    list-style: none;
+}
+
+.redes ul li{
+    display: inline;
+    margin-left: 10px;
+}
+
+.redes ul li a{
+    color: #fff;
+    padding: 7px 10px;
+    border: 1px solid #fff;
+    border-radius: 6px;
+    transition:all 1s;
+}
+
+.redes ul li a:hover{
+    background: #fff;
+    color: #260146;
+    border-radius: 10px;
+    text-decoration: none;
+    
+
+}
+
+/*next-event*/
+.next-event-kup{
+    background: url(../img/event-fondo.jpg);
+    background-attachment: fixed;
+}
+.mono-p{
+    
+    text-align: center;
+    padding:50px 0;
+}
+
+.mono-p h2{
+    color: #fff;
+    font-size: 3em;
+    font-family: baloo;
+}
+
+.mono-p p{
+    color: #582286;
+    font-size: 1.2em;
+    margin-bottom: 50px;
+}
+
+
+
+
+.mono-cro{
+
+    width: 40%;
+    margin: auto;
+
+}
+
+.mono-cro .info{
+    color: #fff;
+    font-size: 2.5em;
+    font-family: baloo;
+}
+
+.mono-cro .info-des td{
+    color: #582286;
+
+}
+
+.mono-p h3{
+    color:#582286;
+    font-family:Raleway;
+    padding-top: 20px;
+    font-family: 1.2em;
+     
+}
+.list-event h2{
+    text-align: center;
+    color: #fff;
+    padding: 30px;
+}
+.list-event .tabla{
+    width: 80%;
+    height: 250px;
+    margin: auto;
+    text-align: center;
+
+}
+.list-event .tabla tr strong{
+    color: #582286;
+}
+.list-event .tabla tr{
+    font-size: 1.1em;
+    color: #fff;
+    font-family:Raleway;
+    border-bottom: 1px solid rgba(111, 20, 183, 0.3);
+}
+
+.list-event .tabla tr .bit-rsvp{
+    background:linear-gradient(to left, #6f14b7, #c87610);
+    padding: 3px 6px;
+    color: #fff;
+    font-family:Raleway;
+    font-size: 1em;
+    border-radius: 6px;
+    transition:all 1s;
+}
+
+.list-event .tabla tr .bit-rsvp:hover{
+    text-decoration: none;
+    background:linear-gradient(to left, #c87610, #6f14b7);
+}
+
+.p4{
+   background: #260146;
+   height: 700px;
+}
+
+
+
+
+.mono-title h2{
+  padding-top: 40px;
+  font-size: 3em;
+  font-family: baloo;
+  color: white;
+  text-align: center;
+}
+
+
+.mono-title p{
+  font-family:Raleway;
+  font-size: 1.05em;
+  color:  #c87610;
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+.mono-fil{
+  width: 90%;
+  display: flex;
+  margin: auto;
+  -webkit-box-shadow: -12px -10px 28px -6px rgba(0,0,0,0.52);
+-moz-box-shadow: -12px -10px 28px -6px rgba(0,0,0,0.52);
+box-shadow: -12px -10px 28px -6px rgba(0,0,0,0.52);
+}
+
+.mono-fil .normal{
+    position: relative;
+}
+
+.mono-fil .normal .ver{
+    background-color:rgba(123,345,234, .5);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 220px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    
+}
+
+.mono-fil .normal .ver a{
+    font-size: 3em;
+    font-family: baloo;
+    display: block;
+    transition: opacity .35s, transform .45s;
+    transform: translate3d(-40px, 0, 0)
+}
+
+
+.mono-spon{
+    background-image:url(../img/sponsor/fondo2.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 400px;
+
+}
+
+.mono-spon h2{
+    color: #fff;
+    text-align: center;
+    padding-top: 50px;
+    font-family: baloo;
+    font-size: 3em;
+}
+
+.mono-spon p{
+    color: #9d9d9d;
+    text-align: center;
+    padding-top: 35px;
+}
+
+.sponsor{
+    margin: 0 10px;
+    width: 90%;
+    margin: auto;
+    padding: 0 45px;
+    padding-top: 30px;
+}
+
+.mono-spon .mono-lo{
+    padding:0 30px;
+    margin: auto;
+    width: 300px;
+    height: 180px;
+    display: inline-block;
+
+}
+
+.mono-spon .dorito{
+    background-image: url(../img/sponsor/1d.png);
+    background-repeat: no-repeat;
+    trasition:background 2s;
+}
+
+.mono-spon .red{
+    background-image: url(../img/sponsor/2c.png);
+    background-repeat: no-repeat;
+    trasition:background 2s;
+}
+
+.mono-spon .coca{
+    background-image: url(../img/sponsor/3r.png);
+    background-repeat: no-repeat;
+    trasition:background 2s;
+}
+
+/*Button up*/
+
+.btntoTop {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 70px;
+    right: 70px;
+    background-color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    opacity: 0;
+    -webkit-transition: opacity 0.2s ease;
+    transition: opacity 0.2s ease;
+}
+.btntoTop:before {
+  padding-top: 0; 
+    content: "\f106";
+    display: inline-block;
+    vertical-align: middle;
+    font: 40px 'FontAwesome';
+    color: #6f14b7;
+}
+.btntoTop.active {
+    opacity: 1;
+}
+.btntoTop.active:hover{
+    opacity: 0.8
+}
+
+.mono-for{
+    height: 776px;
+    /*background: #260146;*/
+    background-image: url(../img/footer-banner.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+
+.separar{
+    margin: 20px 0;
+}
+
+.formulario{
+    width: 500px;
+    border-right: 3px solid orange;
+    height: 776px;
+    padding: 10px;
+    left: 160px;
+    position: absolute;
+    top: 0;
+}
+
+.formulario h2{
+    color: orange;
+    font-size: 3em;
+    font-family: baloo;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.formulario p{
+    font-size: 1.1em;
+    color: #9d9d9d;
+    font-family: raleway;
+    text-align: center;
+}
+
+.formulario label{
+    color: #fff;
+    font-family: raleway;
+    padding: 3px 0;
+}
+
+.formulario .form-control:focus{
+    border-color: orange;
+}
+
+.formulario .btn-platzi{
+    background: orange;
+}
+
+.formulario span i{
+    color: white;
+}
+
+.btns{
+    margin-top: 20px;
+    margin-left: 320px;
+    
+}
+
+.btn-primary{
+    background: orange;
+}
+
+.contact{
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.contact ul{
+    list-style: none;
+}
+.contact ul li{
+    margin: 10px 0;
+}
+.contact ul li i{
+    color: orange;
+    font-size: 1.2em;
+}
+
+.contact ul li a{
+    color: white;
+    font-size: 1em;
+    font-family: raleway;
+    text-decoration: none;
+}
+
+.contact ul li a:hover{
+    color: orange;
+}
+
+.mono-for .mono-mp{
+    width: 42%;
+    height:600px;
+}
+
+.mono-for iframe{
+    width: 40%;
+    height: 775px;
+    position: absolute;
+    left: 659px;
+}
+
+
+
+
+
+.footer{
+    background:orange;
+    height: 80px
+}
+
+
+.footer .mono-foo {
+    padding-top: 35px;
+}
+
+.footer .mono-foo h4{
+    font-size: 1.1em;
+    font-family:raleway;
+    color: #260146;
+}
+
+
+.footer .mono-foo a{
+    color: #260146;
+    transition: all 1s;
+}
+
+.footer .mono-foo a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+
+.carousel{
+    width: 100%;
+}
+
